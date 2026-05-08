@@ -194,7 +194,7 @@ ul {
   min-height: 200px;
   background: linear-gradient(135deg, var(--green-50), var(--orange-50));
   border: 2px dashed var(--orange-200);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-xl);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -255,7 +255,7 @@ ul {
   color: #fff;
 }
 .header:not(.scrolled) .logo-sub {
-  color: #FDE68A;
+  color: #fde68a;
 }
 .header:not(.scrolled) .nav__toggle span {
   background: #fff;
@@ -535,10 +535,9 @@ ul {
   bottom: -32px;
   right: -32px;
   width: 200px;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-xl);
-  border: 4px solid #fff;
 }
 .about__badge-float {
   position: absolute;
