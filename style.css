@@ -532,9 +532,9 @@ ul {
 }
 .about__image-accent {
   position: absolute;
-  bottom: -32px;
-  right: -32px;
-  width: 200px;
+  bottom: -82px;
+  left: -32px;
+  width: 180px;
   border-radius: var(--radius-xl);
   overflow: hidden;
   box-shadow: var(--shadow-xl);
@@ -542,7 +542,7 @@ ul {
 .about__badge-float {
   position: absolute;
   top: 24px;
-  left: -24px;
+  right: -74px;
   background: #fff;
   border-radius: var(--radius-md);
   padding: 12px 18px;
@@ -550,6 +550,7 @@ ul {
   align-items: center;
   gap: 10px;
   box-shadow: var(--shadow-lg);
+  max-width: 300px;
 }
 .badge-float__icon {
   font-size: 1.5rem;
