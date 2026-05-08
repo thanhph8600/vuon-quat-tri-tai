@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 140" fill="none" role="img" aria-label="Vườn Quất Tri - Tài">
+  <defs>
+    <!-- Quả cam gradient -->
+    <radialGradient id="g-fruit-a" cx="35%" cy="28%" r="65%">
+      <stop offset="0%"   stop-color="#FFE566"/>
+      <stop offset="45%"  stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="g-fruit-b" cx="35%" cy="28%" r="65%">
+      <stop offset="0%"   stop-color="#FDE68A"/>
+      <stop offset="50%"  stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#C2410C"/>
+    </radialGradient>
+    <radialGradient id="g-fruit-c" cx="35%" cy="28%" r="65%">
+      <stop offset="0%"   stop-color="#FEF9C3"/>
+      <stop offset="55%"  stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </radialGradient>
+    <!-- Nền emblem -->
+    <linearGradient id="g-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#166534"/>
+      <stop offset="100%" stop-color="#14532D"/>
+    </linearGradient>
+    <!-- Text gradient -->
+    <linearGradient id="g-text" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#14532D"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+    <!-- Shadow fruit -->
+    <filter id="f-fruit" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#7C2D12" flood-opacity="0.4"/>
+    </filter>
+    <!-- Glow emblem -->
+    <filter id="f-emblem" x="-8%" y="-8%" width="116%" height="116%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#14532D" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- ════════════════════════════════
+       EMBLEM – hình tròn nền xanh đậm
+       ════════════════════════════════ -->
+  <g filter="url(#f-emblem)">
+
+    <!-- Vòng tròn nền -->
+    <circle cx="70" cy="70" r="66" fill="url(#g-bg)"/>
+
+    <!-- Vòng viền mỏng trang trí -->
+    <circle cx="70" cy="70" r="60" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+
+    <!-- ── CÀNH CHÍNH (stroke trắng ngà, mềm mại) ── -->
+    <!-- Thân cành từ gốc uốn lên trái -->
+    <path d="M70 102 C68 90 60 78 56 65 C52 52 56 38 62 30"
+          stroke="#E8F5E0" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9"/>
+    <!-- Cành sang phải từ giữa -->
+    <path d="M60 62 C68 56 80 52 90 46"
+          stroke="#E8F5E0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85"/>
+    <!-- Cành nhỏ sang trái -->
+    <path d="M56 75 C46 70 38 66 34 60"
+          stroke="#D4EBC6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <!-- Cành nhỏ lên trên phải -->
+    <path d="M62 30 C67 22 78 20 86 22"
+          stroke="#D4EBC6" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+    <!-- ── LÁ (đơn giản, bold, màu xanh sáng) ── -->
+    <!-- Lá 1 – trái lớn -->
+    <ellipse cx="42" cy="64" rx="13" ry="7" fill="#4ADE80"
+             transform="rotate(-35 42 64)" opacity="0.95"/>
+    <line x1="35" y1="67" x2="50" y2="61" stroke="#16A34A" stroke-width="1" opacity="0.6"/>
+
+    <!-- Lá 2 – phải trên -->
+    <ellipse cx="93" cy="42" rx="13" ry="6.5" fill="#86EFAC"
+             transform="rotate(-45 93 42)" opacity="0.9"/>
+    <line x1="87" y1="47" x2="100" y2="37" stroke="#22C55E" stroke-width="1" opacity="0.55"/>
+
+    <!-- Lá 3 – trên trái nhỏ -->
+    <ellipse cx="56" cy="24" rx="10" ry="5.5" fill="#4ADE80"
+             transform="rotate(-55 56 24)" opacity="0.85"/>
+
+    <!-- Lá 4 – phải nhỏ -->
+    <ellipse cx="88" cy="22" rx="9" ry="4.5" fill="#86EFAC"
+             transform="rotate(-30 88 22)" opacity="0.8"/>
+
+    <!-- Lá 5 – trái dưới -->
+    <ellipse cx="38" cy="56" rx="9" ry="4.5" fill="#22C55E"
+             transform="rotate(-20 38 56)" opacity="0.75"/>
+
+    <!-- ── QUẢ QUẤT (3 quả, tròn đầy, rõ nét) ── -->
+
+    <!-- Quả lớn chính – phải giữa -->
+    <g filter="url(#f-fruit)">
+      <circle cx="93" cy="58" r="14" fill="url(#g-fruit-a)"/>
+      <!-- Highlight -->
+      <ellipse cx="87" cy="52" rx="4.5" ry="3.5" fill="white" opacity="0.3"
+               transform="rotate(-20 87 52)"/>
+      <!-- Núm lá nhỏ -->
+      <path d="M90 44.5 Q93 41 96 44.5" stroke="#16A34A" stroke-width="2"
+            stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Quả giữa – trái trên -->
+    <g filter="url(#f-fruit)">
+      <circle cx="50" cy="44" r="12" fill="url(#g-fruit-b)"/>
+      <ellipse cx="44.5" cy="38.5" rx="3.8" ry="3" fill="white" opacity="0.28"
+               transform="rotate(-20 44.5 38.5)"/>
+      <path d="M47.5 32.5 Q50 29.5 52.5 32.5" stroke="#16A34A" stroke-width="2"
+            stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Quả nhỏ – trên cùng -->
+    <g filter="url(#f-fruit)">
+      <circle cx="80" cy="26" r="10" fill="url(#g-fruit-c)"/>
+      <ellipse cx="75" cy="21" rx="3" ry="2.4" fill="white" opacity="0.26"
+               transform="rotate(-15 75 21)"/>
+      <path d="M77.5 16.5 Q80 14 82.5 16.5" stroke="#15803D" stroke-width="1.8"
+            stroke-linecap="round" fill="none"/>
+    </g>
+
+    <!-- Gốc / mặt đất gợi ý -->
+    <rect x="46" y="105" width="48" height="5" rx="2.5" fill="rgba(255,255,255,0.08)"/>
+    <rect x="52" y="112" width="36" height="3.5" rx="1.75" fill="rgba(255,255,255,0.05)"/>
+  </g>
+
+  <!-- ════════════════════════════════
+       PHẦN CHỮ
+       ════════════════════════════════ -->
+
+  <!-- Divider dọc -->
+  <rect x="151" y="22" width="1.5" height="96" rx="0.75"
+        fill="url(#g-bg)" opacity="0.18"/>
+
+  <!-- Nhãn phụ trên: VƯỜN QUẤT -->
+  <text x="171" y="47"
+        font-family="'Be Vietnam Pro','Segoe UI',sans-serif"
+        font-size="12" font-weight="700"
+        letter-spacing="5"
+        fill="#F97316">VƯỜN QUẤT</text>
+
+  <!-- Tên chính: Tri - Tài -->
+  <text x="168" y="96"
+        font-family="'Playfair Display','Georgia',serif"
+        font-size="54" font-weight="900"
+        fill="url(#g-text)"
+        letter-spacing="-1.5">Tri · Tài</text>
+
+  <!-- Gạch trang trí -->
+  <rect x="171" y="104" width="56" height="3.5" rx="1.75" fill="#F97316"/>
+  <rect x="233" y="104" width="22" height="3.5" rx="1.75" fill="#4ADE80"/>
+  <rect x="261" y="104" width="10" height="3.5" rx="1.75" fill="#FBBF24"/>
+
+  <!-- Tagline -->
+  <text x="171" y="124"
+        font-family="'Be Vietnam Pro','Segoe UI',sans-serif"
+        font-size="13" font-weight="400" font-style="italic"
+        fill="#57534E" letter-spacing="0.3">Mang lộc, tài, phú quý về nhà</text>
+</svg>

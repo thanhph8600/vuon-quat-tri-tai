@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Logo Preview – Vườn Quất Tri - Tài</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Be Vietnam Pro', sans-serif;
+      background: #F8F8F6;
+      min-height: 100vh;
+      padding: 40px 24px;
+      color: #1C1917;
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-bottom: 8px;
+      color: #14532D;
+    }
+    .subtitle {
+      text-align: center;
+      color: #78716C;
+      font-size: .875rem;
+      margin-bottom: 48px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,.07);
+    }
+    .card--dark { background: #14532D; }
+    .card--orange { background: linear-gradient(135deg, #EA580C, #D97706); }
+    .card--neutral { background: #292524; }
+    .card label {
+      font-size: .75rem;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: #78716C;
+      border: 1px solid #E7E5E4;
+      padding: 3px 10px;
+      border-radius: 100px;
+    }
+    .card--dark label, .card--orange label, .card--neutral label {
+      color: rgba(255,255,255,.65);
+      border-color: rgba(255,255,255,.2);
+    }
+    .card img { max-width: 100%; height: auto; }
+
+    /* Icon grid */
+    .icon-row {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      align-items: flex-end;
+      margin: 8px 0;
+    }
+    .icon-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .icon-box img { display: block; }
+    .icon-box span { font-size: .75rem; color: #78716C; }
+
+    .full { grid-column: span 2; }
+
+    /* Colour swatches */
+    .swatches {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .swatch {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 8px;
+      font-size: .625rem;
+      font-weight: 700;
+      color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+    .swatch-label {
+      font-size: .7rem;
+      color: #57534E;
+      text-align: center;
+      margin-top: 6px;
+    }
+    .swatch-wrap { display: flex; flex-direction: column; align-items: center; }
+    .typo-row { display: flex; gap: 32px; align-items: flex-start; flex-wrap: wrap; justify-content: center; }
+    .typo-item { display: flex; flex-direction: column; gap: 4px; }
+    .typo-item span { font-size: .75rem; color: #78716C; }
+  </style>
+</head>
+<body>
+  <h1>Bộ nhận diện thương hiệu</h1>
+  <p class="subtitle">Vườn Quất Tri - Tài · Điện Dương, Điện Bàn, Đà Nẵng</p>
+
+  <div class="grid">
+
+    <!-- Logo ngang trên nền trắng -->
+    <div class="card full">
+      <label>Logo chính – nền trắng</label>
+      <img src="logo.svg" alt="Logo Vườn Quất Tri - Tài" style="max-height:160px;" />
+    </div>
+
+    <!-- Logo trên nền xanh đậm -->
+    <div class="card card--dark">
+      <label>Logo trên nền xanh lá</label>
+      <img src="logo.svg" alt="Logo trên nền xanh" style="max-height:140px;" />
+    </div>
+
+    <!-- Logo trên nền cam gradient -->
+    <div class="card card--orange">
+      <label>Logo trên nền cam</label>
+      <img src="logo.svg" alt="Logo trên nền cam" style="max-height:140px;" />
+    </div>
+
+    <!-- Icon emblem các kích thước -->
+    <div class="card full">
+      <label>Icon Emblem – các kích thước</label>
+      <div class="icon-row">
+        <div class="icon-box">
+          <img src="logo-icon.svg" width="120" height="120" alt="Icon 120px"/>
+          <span>120px</span>
+        </div>
+        <div class="icon-box">
+          <img src="logo-icon.svg" width="80" height="80" alt="Icon 80px"/>
+          <span>80px</span>
+        </div>
+        <div class="icon-box">
+          <img src="logo-icon.svg" width="56" height="56" alt="Icon 56px"/>
+          <span>56px</span>
+        </div>
+        <div class="icon-box">
+          <img src="logo-icon.svg" width="40" height="40" alt="Icon 40px"/>
+          <span>40px</span>
+        </div>
+        <div class="icon-box">
+          <img src="logo-icon.svg" width="24" height="24" alt="Icon 24px"/>
+          <span>24px</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icon trên nền đậm -->
+    <div class="card card--dark">
+      <label>Icon trên nền tối</label>
+      <div class="icon-row">
+        <img src="logo-icon.svg" width="100" height="100" alt="Icon dark"/>
+        <img src="logo-icon.svg" width="64" height="64" alt="Icon dark sm"/>
+        <img src="logo-icon.svg" width="40" height="40" alt="Icon dark xs"/>
+      </div>
+    </div>
+
+    <!-- Icon trên nền xám -->
+    <div class="card card--neutral">
+      <label>Icon trên nền trung tính</label>
+      <div class="icon-row">
+        <img src="logo-icon.svg" width="100" height="100" alt="Icon neutral"/>
+        <img src="logo-icon.svg" width="64" height="64" alt="Icon neutral sm"/>
+        <img src="logo-icon.svg" width="40" height="40" alt="Icon neutral xs"/>
+      </div>
+    </div>
+
+    <!-- Bảng màu thương hiệu -->
+    <div class="card full">
+      <label>Bảng màu thương hiệu</label>
+      <div class="swatches">
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#14532D;">14532D</div>
+          <div class="swatch-label">Xanh chủ đạo</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#16A34A;">16A34A</div>
+          <div class="swatch-label">Xanh lá</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#4ADE80; color:#14532D;">4ADE80</div>
+          <div class="swatch-label">Xanh sáng</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#F97316;">F97316</div>
+          <div class="swatch-label">Cam chủ đạo</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#EA580C;">EA580C</div>
+          <div class="swatch-label">Cam đậm</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#FBBF24; color:#14532D;">FBBF24</div>
+          <div class="swatch-label">Vàng quả</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#FEF08A; color:#14532D;">FEF08A</div>
+          <div class="swatch-label">Vàng nhạt</div>
+        </div>
+        <div class="swatch-wrap">
+          <div class="swatch" style="background:#5C3D11;">5C3D11</div>
+          <div class="swatch-label">Nâu cành</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Typography -->
+    <div class="card full">
+      <label>Kiểu chữ thương hiệu</label>
+      <div class="typo-row">
+        <div class="typo-item">
+          <span>Heading – Playfair Display</span>
+          <span style="font-family:'Playfair Display',serif; font-size:2rem; font-weight:900; color:#14532D; line-height:1.1">Tri - Tài</span>
+          <span style="font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:#166534">Vườn Quất</span>
+          <span style="font-family:'Playfair Display',serif; font-size:1rem; font-weight:400; font-style:italic; color:#57534E">Mang lộc tài, phú quý về nhà</span>
+        </div>
+        <div class="typo-item">
+          <span>Body – Be Vietnam Pro</span>
+          <span style="font-family:'Be Vietnam Pro',sans-serif; font-size:1rem; font-weight:700; color:#1C1917">Chăm sóc tận tâm</span>
+          <span style="font-family:'Be Vietnam Pro',sans-serif; font-size:.9375rem; font-weight:500; color:#44403C">Quất cảnh tết cao cấp</span>
+          <span style="font-family:'Be Vietnam Pro',sans-serif; font-size:.875rem; font-weight:400; color:#78716C">Điện Dương · Điện Bàn · Đà Nẵng</span>
+          <span style="font-family:'Be Vietnam Pro',sans-serif; font-size:.75rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#16A34A">VƯỜN QUẤT · 0705 705 734</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
