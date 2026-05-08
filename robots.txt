@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vuon-quat-tri-tai.vercel.app/sitemap.xml
