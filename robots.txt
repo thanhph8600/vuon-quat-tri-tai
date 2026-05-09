@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vuon-quat-tri-tai.vercel.app/sitemap.xml
+Sitemap: https://vuonquattritai.web.app/sitemap.xml
