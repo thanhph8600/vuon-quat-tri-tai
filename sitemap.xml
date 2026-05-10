@@ -1,10 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vuonquattritai.web.app/</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ngay-hoi-cay-canh-hoi-an-2026.jpg</image:loc>
+      <image:title>Ngày hội cây cảnh Hội An 2026 — vườn quất Tri Tài</image:title>
+      <image:caption>Vườn quất Tri Tài tham dự ngày hội cây cảnh Hội An 2026</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/quat-tai-vuon-moi-vao-chau.jpg</image:loc>
+      <image:title>Quất tết mới vào chậu tại vườn Tri Tài</image:title>
+      <image:caption>Quất cảnh tết mới vào chậu tại vườn quất Tri Tài Điện Bàn Đà Nẵng</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tham-gia-giai-ngay-hoi-cay-canh.jpg</image:loc>
+      <image:title>Cây quất Tri Tài tham gia giải ngày hội cây cảnh</image:title>
+      <image:caption>Quất bonsai vườn Tri Tài đạt giải tại ngày hội cây cảnh Hội An Điện Bàn</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon-3.jpg</image:loc>
+      <image:title>Cây quất tại vườn Tri Tài</image:title>
+      <image:caption>Quất cảnh tết tại vườn Tri Tài, Điện Bàn Đông, Quảng Nam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat.jpg</image:loc>
+      <image:title>Toàn cảnh vườn quất Tri Tài</image:title>
+      <image:caption>Toàn cảnh vườn quất Tri Tài tại Điện Bàn Đông, Quảng Nam — vườn quất tết uy tín</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat-2.jpg</image:loc>
+      <image:title>Vườn quất Tri Tài Điện Bàn</image:title>
+      <image:caption>Vườn quất cảnh tết chất lượng tại Điện Bàn, Quảng Nam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/</loc>
@@ -17,95 +48,205 @@
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon.jpg</image:loc>
+      <image:title>Quất cảnh tết đẹp tại vườn Tri Tài</image:title>
+      <image:caption>Quất cảnh tết đẹp, chất lượng cao từ vườn Tri Tài Điện Bàn Đà Nẵng</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/kinh-nghiem-chon-quat.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon-2.jpg</image:loc>
+      <image:title>Kinh nghiệm chọn quất tết đẹp</image:title>
+      <image:caption>Chọn quất cảnh tết đẹp — kinh nghiệm từ vườn quất Tri Tài Điện Bàn</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/cham-soc-quat.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon-3.jpg</image:loc>
+      <image:title>Chăm sóc quất cảnh tết</image:title>
+      <image:caption>Hướng dẫn chăm sóc quất cảnh tết giữ quả lâu và cây đẹp</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/quat-hoi-an.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ngay-hoi-cay-canh-hoi-an-2026.jpg</image:loc>
+      <image:title>Ngày hội cây cảnh Hội An 2026</image:title>
+      <image:caption>Vườn quất Tri Tài tham dự triển lãm cây cảnh tết Hội An Quảng Nam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/quat-bonsai-la-gi.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tham-gia-giai-ngay-hoi-cay-canh.jpg</image:loc>
+      <image:title>Quất bonsai — quất cảnh nghệ thuật</image:title>
+      <image:caption>Quất bonsai vườn Tri Tài đạt giải tại ngày hội cây cảnh Hội An</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/dat-quat-truoc-tet.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/giao-quat-tai-vuon.jpg</image:loc>
+      <image:title>Đặt quất tết sớm tại vườn Tri Tài</image:title>
+      <image:caption>Đặt hàng quất tết trước tại vườn Tri Tài — giao tận nơi Đà Nẵng Hội An</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/vung-trong-quat-dien-ban.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat-2.jpg</image:loc>
+      <image:title>Vùng trồng quất Điện Bàn Đà Nẵng</image:title>
+      <image:caption>Vùng trồng quất cảnh tết chất lượng nhất miền Trung tại Điện Bàn, Quảng Nam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/quat-bi-rung-qua.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon.jpg</image:loc>
+      <image:title>Quất bị rụng quả — nguyên nhân và cách xử lý</image:title>
+      <image:caption>Hướng dẫn khắc phục quất bị rụng quả giữ cây đẹp dịp tết</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/tuoi-nuoc-quat-tet.html</loc>
     <lastmod>2026-05-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/quat-tai-vuon-moi-vao-chau.jpg</image:loc>
+      <image:title>Tưới nước quất tết đúng cách</image:title>
+      <image:caption>Hướng dẫn tưới nước quất tết giúp cây tươi lâu trong dịp tết</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/ban-si-le-quat.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ban-quat-tet-tai-da-nang.jpg</image:loc>
+      <image:title>Bán quất tết tại Đà Nẵng — sỉ và lẻ</image:title>
+      <image:caption>Vườn Tri Tài cung cấp sỉ và lẻ quất cảnh tết tại Điện Bàn, giao tận nhà Đà Nẵng</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ban-quat-tet-tai-da-nang-2.jpg</image:loc>
+      <image:title>Quất cảnh sỉ lẻ vườn Tri Tài giao tận nhà</image:title>
+      <image:caption>Bán quất tết sỉ lẻ giao tận nhà tại Đà Nẵng, Hội An từ vườn Tri Tài Điện Bàn</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/gioi-thieu-vuon-quat-tri-tai.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat.jpg</image:loc>
+      <image:title>Toàn cảnh vườn quất Tri Tài Điện Bàn Đà Nẵng</image:title>
+      <image:caption>Toàn cảnh vườn quất Tri Tài tại Phường Điện Bàn Đông — vườn quất tết uy tín Quảng Nam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/giay-khen.jpg</image:loc>
+      <image:title>Giấy khen vườn quất Tri Tài</image:title>
+      <image:caption>Giấy khen chứng nhận uy tín nhà vườn quất cảnh Tri Tài tại Điện Bàn Đà Nẵng</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/giay-khen-2023.jpg</image:loc>
+      <image:title>Giấy khen 2023 vườn quất Tri Tài</image:title>
+      <image:caption>Giấy khen 2023 — vườn quất Tri Tài được công nhận uy tín tại Điện Bàn Đông, Quảng Nam</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/giao-quat-tai-vuon.jpg</image:loc>
+      <image:title>Giao quất tại vườn Tri Tài</image:title>
+      <image:caption>Bán sỉ lẻ quất tết giao tận nhà Đà Nẵng Hội An từ vườn Tri Tài</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/vuon-quat-phuc-vu-hoi-an.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ngay-hoi-cay-canh-hoi-an-2026.jpg</image:loc>
+      <image:title>Ngày hội cây cảnh Hội An 2026</image:title>
+      <image:caption>Vườn quất Tri Tài tham dự triển lãm cây cảnh tết Hội An Quảng Nam 2026</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/giao-quat-tai-vuon-2.jpg</image:loc>
+      <image:title>Giao quất tết từ Điện Bàn đến Hội An Đà Nẵng</image:title>
+      <image:caption>Xe chở quất tết từ vườn Tri Tài Điện Bàn Đông đến Hội An Đà Nẵng</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tham-gia-giai-ngay-hoi-cay-canh.jpg</image:loc>
+      <image:title>Cây quất Tri Tài đạt giải ngày hội cây cảnh</image:title>
+      <image:caption>Quất bonsai Tri Tài đạt giải tại ngày hội cây cảnh Hội An Điện Bàn Quảng Nam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/quat-tet-dien-ban-dong.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat.jpg</image:loc>
+      <image:title>Quất tết Điện Bàn Đông Quảng Nam</image:title>
+      <image:caption>Vườn quất tết tại Điện Bàn Đông — trung tâm trồng quất cảnh lớn nhất Quảng Nam</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/quat-tet-dien-ban.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/vuon-quat-2.jpg</image:loc>
+      <image:title>Quất tết Điện Bàn Quảng Nam</image:title>
+      <image:caption>Vườn quất tết Điện Bàn — quất cảnh chất lượng cao tại Quảng Nam Đà Nẵng</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/vuon-quat-da-nang.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/ban-quat-tet-tai-da-nang.jpg</image:loc>
+      <image:title>Vườn quất tết Đà Nẵng</image:title>
+      <image:caption>Mua quất tết tại Đà Nẵng từ vườn Tri Tài — giao tận nhà nhanh chóng</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://vuonquattritai.web.app/blog/vuon-quat-giong.html</loc>
     <lastmod>2026-05-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://vuonquattritai.web.app/image/cay-quat-tai-vuon-2.jpg</image:loc>
+      <image:title>Vườn quất giống Tri Tài</image:title>
+      <image:caption>Cây quất giống chất lượng tại vườn Tri Tài, Điện Bàn, Quảng Nam</image:caption>
+    </image:image>
   </url>
 </urlset>
