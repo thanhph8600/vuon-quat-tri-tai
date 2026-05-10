@@ -35,7 +35,7 @@
     />
     <meta
       property="og:image"
-      content="https://vuonquattritai.web.app/logo.svg"
+      content="https://vuonquattritai.web.app/image/vuon-quat.jpg"
     />
     <meta property="og:image:width" content="480" />
     <meta property="og:image:height" content="140" />
@@ -218,8 +218,8 @@
             <div class="about__image-wrap">
               <div class="about__image-main">
                 <img
-                  src="./ngay-hoi-cay-canh.png"
-                  alt="Ngày hội cây cảnh tết tại Hội An, Điện Bàn Đông - Đà Nẵng"
+                  src="./image/ngay-hoi-cay-canh-hoi-an-2026.jpg"
+                  alt="Ngày hội cây cảnh Hội An 2026 — vườn quất Tri Tài tham gia triển lãm cây cảnh tết Đà Nẵng"
                   width="600"
                   height="450"
                   loading="eager"
@@ -228,8 +228,8 @@
               </div>
               <div class="about__image-accent">
                 <img
-                  src="./cay-quat-cao.png"
-                  alt="Cây quất cao tết tươi tốt tại vườn Quất Tri - Tài"
+                  src="./image/giay-khen-2.png"
+                  alt="Cây quất tại vườn Tri Tài — quất cảnh tết Điện Bàn Đông tươi tốt quả vàng"
                   width="300"
                   height="400"
                   loading="lazy"
@@ -495,40 +495,46 @@
           </div>
           <div class="gallery__grid">
             <div class="gallery__item gallery__item--large">
-              <div class="image-placeholder image-placeholder--gallery">
-                <span class="placeholder-icon">🌳</span>
-                <span>Toàn cảnh vườn quất</span>
-              </div>
+              <img
+                src="image/quat-tai-vuon-moi-vao-chau.jpg"
+                alt="Toàn cảnh vườn quất Tri - Tài tại Điện Bàn Đông Đà Nẵng — bán sỉ lẻ quất tết"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div class="gallery__item">
-              <div class="image-placeholder image-placeholder--gallery">
-                <span class="placeholder-icon">🍊</span>
-                <span>Quất trĩu quả vàng</span>
-              </div>
+              <img
+                src="image/cay-quat-tham-gia-giai-ngay-hoi-cay-canh.jpg"
+                alt="Cây quất trĩu quả vàng tại vườn — mua quất tết Đà Nẵng Hội An"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div class="gallery__item">
-              <div class="image-placeholder image-placeholder--gallery">
-                <span class="placeholder-icon">🌿</span>
-                <span>Quất bonsai thế đẹp</span>
-              </div>
+              <img
+                src="image/cay-quat-tai-vuon-3.jpg"
+                alt="Quất bonsai cây thế đẹp vườn Tri Tài Điện Bàn — quất cảnh tết cao cấp"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div class="gallery__item">
-              <div class="image-placeholder image-placeholder--gallery">
-                <span class="placeholder-icon">🪴</span>
-                <span>Quất mini để bàn</span>
-              </div>
+              <img
+                src="image/vuon-quat.jpg"
+                alt="Quất mới vào chậu tại vườn Tri Tài — quất mini để bàn quà tặng tết"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <div class="gallery__item">
-              <div class="image-placeholder image-placeholder--gallery">
-                <span class="placeholder-icon">🌱</span>
-                <span>Chăm sóc cây non</span>
-              </div>
+              <img
+                src="image/vuon-quat-2.jpg"
+                alt="Vườn quất Tri Tài mùa tết — nhà vườn quất Điện Bàn uy tín giao Đà Nẵng Hội An"
+                loading="lazy"
+                decoding="async"
+              />
             </div>
           </div>
-          <p class="gallery__note">
-            📸 Ảnh thực tế sẽ được cập nhật — liên hệ để xem thêm hình ảnh vườn
-            qua Zalo/Facebook
-          </p>
         </div>
       </section>
 
@@ -898,6 +904,17 @@
         />
       </svg>
     </a>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Xem ảnh vườn quất">
+      <button class="lightbox__close" id="lbClose" aria-label="Đóng">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Ảnh trước">&#8249;</button>
+      <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Ảnh tiếp">&#8250;</button>
+      <div class="lightbox__img-wrap">
+        <img class="lightbox__img" id="lbImg" src="" alt=""/>
+      </div>
+      <div class="lightbox__counter" id="lbCounter"></div>
+    </div>
 
     <script src="script.js"></script>
   </body>

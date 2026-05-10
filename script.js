@@ -20,6 +20,54 @@ navMenu.querySelectorAll('.nav__link').forEach(link => {
   });
 });
 
+// Gallery Lightbox
+const galleryItems = document.querySelectorAll('.gallery__item img');
+const lightbox = document.getElementById('lightbox');
+const lbImg = document.getElementById('lbImg');
+const lbCounter = document.getElementById('lbCounter');
+let lbIndex = 0;
+
+const lbImages = Array.from(galleryItems).map(img => ({ src: img.src, alt: img.alt }));
+
+function lbShow(index) {
+  lbIndex = (index + lbImages.length) % lbImages.length;
+  lbImg.classList.add('fading');
+  setTimeout(() => {
+    lbImg.src = lbImages[lbIndex].src;
+    lbImg.alt = lbImages[lbIndex].alt;
+    lbCounter.textContent = (lbIndex + 1) + ' / ' + lbImages.length;
+    lbImg.classList.remove('fading');
+  }, 150);
+}
+
+function lbOpen(index) {
+  lbShow(index);
+  lightbox.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function lbClose() {
+  lightbox.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+galleryItems.forEach((img, i) => {
+  img.parentElement.addEventListener('click', () => lbOpen(i));
+});
+
+document.getElementById('lbClose').addEventListener('click', lbClose);
+document.getElementById('lbPrev').addEventListener('click', () => lbShow(lbIndex - 1));
+document.getElementById('lbNext').addEventListener('click', () => lbShow(lbIndex + 1));
+
+lightbox.addEventListener('click', e => { if (e.target === lightbox) lbClose(); });
+
+document.addEventListener('keydown', e => {
+  if (!lightbox.classList.contains('active')) return;
+  if (e.key === 'Escape') lbClose();
+  if (e.key === 'ArrowLeft') lbShow(lbIndex - 1);
+  if (e.key === 'ArrowRight') lbShow(lbIndex + 1);
+});
+
 // Scroll reveal animation
 const revealEls = document.querySelectorAll(
   '.product-card, .why-card, .testimonial-card, .about__content, .about__image-wrap, .contact-item'
